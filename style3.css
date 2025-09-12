@@ -1,0 +1,48 @@
+#start {
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+#start #BLOG {
+    font-size: 30px;
+    font-weight: 500;
+}
+
+.tin {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.blog {
+    display: flex;
+    justify-content: center;
+    width: 48%;
+    height: 200px;
+    box-shadow: 0 0 4px pink;
+    background-color: white;
+}
+
+.blog div {
+    padding: 18px 20px;
+    text-align: justify;
+}
+
+.blog img {
+    width: 200px;
+    height: 150px;
+    margin-top: 15px;
+    margin-left: 20px;
+    margin-right: 0px;
+}
+
+.TT {
+    font-size: 10;
+    font-weight: 600;
+}
+
+.TT:hover {
+    text-decoration: underline;
+}

@@ -1,0 +1,68 @@
+.Dangnhap {
+    margin: 0 auto;
+    width: 600px;
+    height: 380px;
+    background-color: white;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    margin-top: 20px;
+    margin-bottom: 10px;
+    text-align: center;
+    border-radius: 8px;
+
+}
+
+.d2 {
+    padding-top: 50px;
+}
+h2 {
+    line-height: 60px;
+}
+
+.con1,
+.con {
+    width: 350px;
+    height: 35px;
+    margin: 10px 0;
+    font-size: 15px;
+}
+
+
+
+
+.con1 {
+    background-color: #FFEBF1;
+    /* Màu hồng đậm hơn */
+    color: black;
+    /* Màu chữ trắng */
+    border: none;
+    /* Không viền */
+    border-radius: 10px;
+    /* Bo góc tròn */
+    padding: 5px 24px;
+    /* Khoảng cách nội dung */
+    font-size: 14px;
+    /* Kích thước chữ */
+    font-weight: bold;
+    /* Chữ đậm */
+    text-transform: uppercase;
+    /* Chữ in hoa */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    /* Hiệu ứng bóng */
+    transition: background-color 0.3s, transform 0.2s;
+    /* Hiệu ứng chuyển màu và phóng to */
+}
+
+.con1:hover {
+    background-color: pink;
+    /* Màu hồng đậm hơn khi hover */
+}
+
+.con {
+    padding-left: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.con:focus {
+    border-color: #E6ACBC;
+}
